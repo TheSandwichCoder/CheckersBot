@@ -1,0 +1,11 @@
+Hey these are the rules for the checkers game, since I dont know how to play checkers. 
+
+1. All captures are forced. If there are multiple captures available, you have to chose the one that has the most captures. The program automatically does this for you(that was a pain to code). If there are still other captures available, you may chose between which captures you want. Also this rule is enforced for king movement, despite that also being a pain to code.
+
+2. Pawns are relatively unchanged. They move diagonally by one square. To capture, there must be a pawn that you can jump over, directly in front of you on your diagonal. You are forced to take the most number of captures in a single turn.
+
+3. You get a king when reaching the other side with a pawn. Kings move diagonally as far as they want(similar to bishops in chess). As for captures, they are similar to pawns, but are allowed to choose where they land and are able to take pawns no matter where they are along his diagonals. Kings are also forced to make multiple captures and this does take into account which square you can land.
+
+4. The game is a stalemate if none of the enemy pieces can move. The game would be a draw for 3-move repitiion(although not implemented). You win by capturing all of your enemies pieces. 
+
+For movement, the program helps to guide you on the squares you can move to. If you want to look at all possible moves, just hold on an unoccupied square. If you are interested in the FEN position, press f. If you want to see the coordinate guidelines, press c. The bot provides you with the move they think is the best, but I suggest you dont use that. Ok have fun!
